@@ -1,6 +1,6 @@
 <template>
-  <v-app id="app">
-    <v-main id="nav">
+  <v-app>
+    <v-main>
       <v-container>
         <!-- <v-form-base
           :col="{ cols: 12, sm: 6, md: 3 }"
@@ -14,9 +14,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <router-view />
-
   </v-app>
-
 </template>
 
 <style lang="scss">
